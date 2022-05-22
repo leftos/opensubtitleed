@@ -1,0 +1,14 @@
+Open Subtitle Editor requires the .NET Framework 4. If you're not using the Installer package, you may have to install it manually.
+
+It also uses the Windows Media Player 11 ActiveX Control to preview videos.
+
+That means that any video file that can be played in Windows Media Player can be played in Open Subtitle Editor, but if you lack any needed codecs you may encounter problems.
+
+
+Usually required codecs:
+
+DivX: http://www.divx.com/en/downloads/divx
+XVid: http://www.koepi.info/xvid.html
+AC3: http://ac3filter.net/project/1/releases
+
+.NET Framework 4: http://www.microsoft.com/downloads/details.aspx?FamilyID=9cfb2d51-5ff4-4491-b0e5-b386f32c0992&displaylang=en

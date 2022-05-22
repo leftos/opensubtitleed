@@ -1,0 +1,68 @@
+Open Subtitle Editor Changelist
+--------------------------------------------------
+
+Legend:
+ENH - Enhancement
+ADD - Addition
+BUG - Bugfix
+FIX - Other fix (interface, etc.)
+OTH - Other
+
+--------------------------------------------------
+
+Version 0.1.3 beta (SVN Revision Rolling) / Code update 100623-3 (r44)
+- OTH: (Fix from r42) NumericUpDownEx events are now UpButtonClick and DownButtonClick, like they were originally.
+- OTH: First item in language files should be AboutToolStripMenuItem instead of aboutMenuItem, so that we'll be able to check automated methods for setting each control's Text property in later builds, to avoid having to write a loadStringFromFile for every single control that gets on each form.
+Code update 100623-2 (r43)
+- OTH: Image resources included in RESX files, no longer need for a separate Images folder.
+Code Update 100623-1 (r42)
+- FIX: Fixed volume slider moving too quickly. Default volume is now at 80%.
+- ADD: Added option to increase subtitle writing space by hiding the Show, Hide, Duration boxes.
+- FIX: Removed stop button.
+- FIX: Fixed some unwanted behavior in the subtitles table.
+- ENH: Now incomplete language files can be used as well, and if anything's missing, it will be substituted by the original English text.
+- OTH: Other minor bug- and interface fixes.
+
+Version 0.1.2 (Revision 39)
+- ADD: Added Quick Add and Quick Edit functions which allow to create a new subtitle or edit an existing one with timings based on the time the button is pressed and released. Allows for easy acoustic synchronization.
+- BUG: Fixed the Pause icon remaining on the Play/Pause button if a new video is loaded while playing the previous one.
+- ENH: Tried to improve seeking time by pausing the video before seeking with the slider bar.
+- ENH: Improved many aspects of the subtitle editing, mainly in regards to timing checks. In most cases the program will not allow the show timing to be later than the hide timing.
+- ENH: The Subtitle & Preview tab no longer includes the subtitle editing area, which has been made always in view. The tab is now the Preview tab and includes only the Video Preview controls, and the Tabs can be hidden altogether. The Debug tab will be opened automatically whenever an event requires the users attention.
+- ADD: Most commonly used subtitle editing functions in the Edit menu now have keyboard shortcuts.
+- ENH: Now can succesfully read and write subtitle files saved in the most commonly used Unicode encodings (UTF8, Unicode Little Endian, Unicode Big Endian), as well as the system's default encoding for non-Unicode files.
+- ADD: Added Unknown Format window which asks the user to pick the format and encoding themselves in case the program couldn't guess them.
+- BUG: Interface Translator would crash when clicking Cancel on the Save Translation prompt.
+- ADD: Program displays a warning regarding codecs on first run.
+- BUG: Fixed unexpected behaviour of X button on the Main Window after the Debug Window had been shown.
+- BUG: Program now works in systems where the Regional Settings have a decimal separator other than ",".
+- OTH: The interface has been revamped to not use the Remote Control form anymore but to rather have the controls on the main form. Scroll bars have been added and can be used to adjust the video position and volume.
+- OTH: Other minor fixes
+
+Version 0.1.1 (Revision 17)
+- ENH: Now uses Subtitles.vb instead of LoadSaveSubs.vb, which adds a structured format for each subtitle, as well as an array for the subtitle file to be loaded into. Allows easier access and manipulation of subtitles, and should also allow for easier coding.
+- ADD: Added Quick Edit functionality on the bottom of the window, which allows the user to quickly change the Show, Hide, Duration, Text, isBold and isItalic attributes of the subtitle.
+- ENH: User can now choose whether to see the Video Player, even when a video is loaded.
+- ENH: Debug window is by default hidden, latest changes are displayed for 3 seconds on the new status bar. User can choose to display it, and the program displays it automatically if overlap errors are found.
+- ADD: Added the option of sorting the subtitle table by show timing.
+- ENH: Improved the subtitle preview code, a lot. Now Rewind and Forward should work much better, as well as pausing, resuming and stopping.
+- ENH: Forwarding and rewinding while stopped is now working.
+- OTH: Changed source files structure.
+
+Version 0.1 (Revision 12)
+- BUG: movieLoaded variable changed to true even if a video wasn't loaded.
+- BUG: Main Window Title would get changed even if a video wasn't loaded.
+- ENH: Windows Media Player control now appears and form is resized only after loading a video (didn't look into it much, may require testing to see if resizing the main Window works okay and such).
+- FIX: Fixed some form attributes for frmLicense.
+
+Version 0.1 Alpha 0 (Revision 10)
+- Initial version.
+
+--------------------------------------------------
+
+Known Issues:
+- Non-latin characters do not display correctly if subtitle file is in ANSI format
+- Unexpected behaviour when opening SRT files with custom display coordinates
+- Unexpected behaviour when opening non-SubRip subtitle
+- Source files must have only one loadStringFromLangFile per line for the Interface Translator to work correctly
+- In case of a line missing in a translation file, the English file is loaded twice afterwards

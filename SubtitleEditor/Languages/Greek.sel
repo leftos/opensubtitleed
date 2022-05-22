@@ -1,0 +1,99 @@
+﻿! Actual Open Subtitle Editor Language File
+AboutToolStripMenuItem, Περί...
+aboutWord, Περί
+addCustomDelayPrompt, Παρακαλώ εισάγετε τον αριθμό σε χιλιοστά του δευτερολέπτου που θέλετε να προσθέσετε ως καθυστέρηση (αρνητικοί αριθμοί θα αφαιρεθούν).
+addDelay, Προσθήκη καθυστέρησης
+addMenu, Προσθήκη
+allFiles, Όλα τα Αρχεία
+allTimingsCorrect, Ο έλεγχος ολοκληρώθηκε. Οι τρέχουσες χρονικές καταχωρήσεις είναι σωστές!
+alreadyRunningOSE, Το Open Subtitle Editor τρέχει ήδη. Αν το πρόβλημα συνεχιστεί, δοκιμάστε να αποσυνδεθείτε από το λογαριασμό χρήστη σας και να ξανασυνδεθείτε.
+applyConstantDelayMenu, Εφαρμογή Τρέχουσας Καθυστέρησης
+applyCustomDelayMenu, Εφαρμογή Άλλης Καθυστέρησης...
+btnStop, Διακοπή
+cancelButton, Άκυρο
+checkEnded, Ο έλεγχος ολοκληρώθηκε.
+checkForOverlapsMenu, Έλεγχος Για Σφάλματα Χρονισμού
+constantDelayLabel, Καθυστέρηση
+convertToMenu, Μετατροπή σε
+copyToClipboard, Αντιγραφή στο Πρόχειρο
+counterline, Πέρασμα υπότιτλου #
+currentStatus, Τρέχουσα Κατάσταση
+delayMenu, Καθυστέρηση
+downWord, Χαμηλότερα
+durationWord, Διάρκεια
+editMenu, Επεξεργασία
+encoding, Κωδικοποίηση
+endAfterLabel, Τέλος Προεπισκόπησης Αργότερα Κατά
+endDelay, Τέλος Προεπισκόπησης Αργότερα Κατά
+endSelectedHere, Απόκρυψη Επιλεγμένου στην Τρέχουσα Θέση
+exitMenuItem, Έξοδος
+fileWord, Αρχείο
+forwardMenu, Μπροστά
+fpsConversionMenu, Μετατροπή FPS
+helpMenu, Βοήθεια
+hideTableHeader, Απόκρυψη
+hideTimeLessOrEqual, Ο χρόνος απόκρυψης αυτού του υπότιτλου είναι νωρίτερα ή την ίδια στιγμή με το χρόνο εμφάνισης. Αυτός ο υπότιτλος δε θα εμφανιστεί καθόλου.
+in_somany_seconds1, σε
+in_somany_seconds2, δευτερόλεπτα.
+languagefile, Αρχείο Γλώσσας
+languageMenu, Γλώσσα
+licensedString, Υπό την άδεια GNU GPL. Κάντε κλικ στο "Άδεια" για περισσότερες πληροφορίες.
+licenseWord, Άδεια
+loadedmovie, Το βίντεο φορτώθηκε επιτυχώς.
+loadTranslationMenuItem, Άνοιγμα Μετάφρασης...
+maxMenu, Μέγιστη
+minutesText, λεπτά
+movieMenu, Βίντεο
+muteMenu, Σίγαση
+newMenu, Νέο
+nextLineStartsBeforePreviousEnds, Ο χρόνος εμφάνισης του επόμενου υπότιτλου είναι νωρίτερα ή την ίδια στιγμή με το χρόνο απόκρυψης αυτού. Παρακαλώ ελέγξτε τους χροισμούς.
+noFPSsetOrCurrentFPS, Δεν μπόρεσε να γίνει η μεατροπή στα επιλεγμένα FPS επειδή είτε δεν έχουν οριστεί τα τρέχοντα FPS ή προσπαθήσατε να μετατρέψετε στα τρέχοντα.
+noSubtitlesWithCurrentSettings, Δε μπόρεσαν να διαβαστούν υπότιτλοι με τις τρέχουσες ρυθμίσεις.
+onCurrentMoviePositionMenu, Προσθήκη στην Τρέχουσα Θέση Βίντεο
+onCustomPointMenu, Προσθήκη σε Προσαρμοσμένη Θέση
+openMenuItem, Άνοιγμα
+otherFPS, Άλλα
+pal/ntscFormats, Μορφή PAL/NTSC
+parsedgen, Πέραστηκαν
+play/pauseMenu, Αναπαραγωγή/Παύση
+playRate, Ρυθμός Αναπαραγωγής
+pleaseCheckForOverlaps, Παρακαλώ χρησιμοποιήστε τη λειτουργία Έλεγχος Για Σφάλματα Χρονισμού στο μενού Επεξεργασία αφού τελειώσετε τις επεξεργασίες σας για να σιγουρευτείτε ότι όλοι οι υπότιτλοι θα εμφανιστούν σωστά.
+preferencesMenu, Προτιμήσεις
+previewSettingsMenuItem, Ρυθμίσεις Προεπισκόπησης...
+previewWord, Προεπισκόπηση
+propertiesTableHeader, Ιδιότητες
+readyStatus, Έτοιμο.
+resetMenu, Επαναφορά
+rewindMenu, Πίσω
+saveMenuItem, Αποθήκευση
+secondsText, δευτερόλεπτα
+setCurrentFPSMenu, Καθορισμός Τρέχοντων FPS
+setTimeToFForFRby, Εδώ μπορείτε να θέσετε το χρόνο κατά τον οποίο θέλετε να προχωρήσετε ή να επιστρέψετε.
+showTableHeader, Εμφάνιση
+soManyProblemsFound, προβλήματα βρέθηκαν.
+sortSubsMenuItem, Ταξινόμηση Υποτίτλων με Σειρά Εμφάνισης
+startBeforeLabel, Έναρξη Προεπισκόπησης Νωρίτερα Κατά
+startDelay, Έναρξη Προεπισκόπησης Νωρίτερα Κατά
+startingCheckForOverlaps, Εκκίνηση ελέγχου για σφάλματα χρονσιμού...
+startSelectedHere, Εμφάνιση Επιλεγμένου στην Τρέχουσα Θέση
+stopOnEndOfSub, Διακοπή προεπισκόπησης όταν ο διπλο-κλικαρισμένος υπότιτλος αποκρυφτεί
+subsgen, υπότιτλοι
+subtitleAlreadyExistsOnGivenTime, Υπάρχει ήδη υπότιτλος στο δοσμένο χρόνο.
+subtitleEntryWord, Εγγραφή
+subtitleFormat, Μορφή Υποτίτλου
+subtitleMenu, Υπότιτλος
+previewTab, Προεπισκόπηση
+subtitleTableHeader, Κείμενο
+succesfulload, Το Ελληνικό αρχείο μετάφρασης φορτώθηκε επιτυχώς. (Μετάφραση: Λευτέρης Ασλάνογλου)
+tableNotEmptyNewPrompt, Ο τρέχων πίνακας υποτίτλων δεν είναι άδειος. Θα θέλατε να τον αποθηκεύσετε πριν δημιουργήσετε καινούργιο αρχείο υποτίτλων;
+tableNotEmptyPrompt, Ο τρέχων πίνακας υποτίτλων δεν είναι άδειος. Θα θέλατε να τον αποθηκεύσετε πριν ανοίξετε καινούργιο αρχείο υποτίτλων;
+unableToMoveToSelectedSub, Ένα σφάλμα προέκυψε καθώς επιδιώχθηκε μεταφορά του βίντεο στον επιλεγμένο υπότιτλο.
+unknownFormatExplanation, Ο Open Subtitle Editor δε μπόρεσε να μαντέψει τη μορφή του αρχείου υποτίτλου ή/και την κωδικοποίηση του. Παρακαλούμε διαλέξτε από τις παρακάτω επιλογές μέχρι να είστε ικανοποιημένοι με την προεπισκόπηση.
+upWord, Πάνω
+versionWord, Έκδοση
+volumeText, Ένταση
+debug, Αποσφαλμάτωση
+viewTabsMenuItem, Εμφάνιση Καρτελών
+btnQuickAdd, Γρ. Προσθήκη
+btnQuickEdit, Γρ. Επεξεργ.
+chkPauseAfterQuick, και Παύση

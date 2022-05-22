@@ -1,0 +1,100 @@
+﻿! Actual Open Subtitle Editor Language File
+AboutToolStripMenuItem, About...
+aboutWord, About
+addCustomDelayPrompt, Please enter the number in miliseconds that you want to add as a delay (negative numbers will substract).
+addDelay, Add Delay
+addMenu, Add
+allFiles, All Files
+allTimingsCorrect, Check ended. All current timings are correct!
+alreadyRunningOSE, Open Subtitle Editor is already running. If the problem persists, try logging off your user account and logging back on.
+applyConstantDelayMenu, Apply Current Constant Delay
+applyCustomDelayMenu, Apply Custom Delay...
+btnStop, Stop
+cancelButton, Cancel
+checkEnded, Check ended.
+checkForOverlapsMenu, Check For Overlaps && Timing Errors
+constantDelayLabel, Constant Delay
+convertToMenu, Convert To
+copyToClipboard, Copy To Clipboard
+counterline, Parsing subtitle number
+currentStatus, Current Status
+debug, Debug
+delayMenu, Delay
+downWord, Down
+durationWord, Duration
+editMenu, Edit
+encoding, Encoding
+endAfterLabel, End Preview Later By
+endDelay, End Preview Later By
+endSelectedHere, Hide Selected on Current Position
+exitMenuItem, Exit
+fileWord, File
+forwardMenu, Forward
+fpsConversionMenu, Convert FPS
+helpMenu, Help
+hideTableHeader, Hide
+hideTimeLessOrEqual, This subtitle's hide time is earlier or equal to its show time. This subtitle won't show at all.
+in_somany_seconds1, in
+in_somany_seconds2, seconds.
+languagefile, Language File
+languageMenu, Language
+licensedString, Licensed under the GNU GPL license. Click on "License" for more information.
+licenseWord, License
+loadedmovie, Loaded video succesfully.
+loadTranslationMenuItem, Load Translation...
+maxMenu, Max
+minutesText, minutes
+movieMenu, Video
+muteMenu, Mute
+newMenu, New
+nextLineStartsBeforePreviousEnds, Next subtitle's show time is earlier or equal to this one's hide time. Please check the timings.
+noFPSsetOrCurrentFPS, Couldn't convert to selected FPS because there is no FPS set for the subtitles or you tried to convert to the same FPS as the ones set as current.
+noSubtitlesWithCurrentSettings, No subtitles could be read with the current settings.
+onCurrentMoviePositionMenu, Add On Current Video Position
+onCustomPointMenu, Add On Custom Point
+openMenuItem, Open
+otherFPS, Other
+pal/ntscFormats, PAL/NTSC Formats
+parsedgen, Parsed
+play/pauseMenu, Play/Pause
+playRate, Play Rate
+pleaseCheckForOverlaps, Please use the Check For Overlaps && Timing Errors option in the Edit menu after finishing your edits to make sure all the subtitles are displayed correctly.
+preferencesMenu, Preferences
+previewSettingsMenuItem, Preview Settings...
+previewTab, Preview
+previewWord, Preview
+propertiesTableHeader, Properties
+readyStatus, Ready
+resetMenu, Reset
+rewindMenu, Rewind
+saveMenuItem, Save
+secondsText, seconds
+setCurrentFPSMenu, Set Current FPS
+setTimeToFForFRby, Here you can set the time you want to Forward or Rewind by.
+showTableHeader, Show
+soManyProblemsFound, problems found.
+sortSubsMenuItem, Sort Subtitles By Show Timing
+startBeforeLabel, Start Preview Earlier By
+startDelay, Start Preview Earlier By
+startingCheckForOverlaps, Starting check for overlaps and timing errors...
+startSelectedHere, Show Selected on Current Position
+stopOnEndOfSub, Stop preview when double-clicked subtitle hides
+subsgen, subtitles
+subtitleAlreadyExistsOnGivenTime, A subtitle already exists on given time.
+subtitleEntryWord, Entry
+subtitleFormat, Subtitle Format
+subtitleMenu, Subtitle
+subtitleTableHeader, Subtitle
+succesfulload, The English File was loaded succesfully. (English language by Lefteris Aslanoglou)
+tableNotEmptyNewPrompt, The current subtitle table is not empty. Would you like to save it before creating a new subtitle file?
+tableNotEmptyPrompt, The current subtitle table is not empty. Would you like to save it before opening a new subtitle file?
+unableToMoveToSelectedSub, An error has occured while trying to move to the selected subtitle.
+unknownFormatExplanation, Open Subtitle Editor could not guess the subtitle format and/or encoding for the file you chose. Please choose from the following options until the Preview is correct.
+upWord, Up
+versionWord, Version
+viewTabsMenuItem, View Tabs
+volumeText, Volume
+btnQuickAdd, Quick Add
+btnQuickEdit, Quick Edit
+chkPauseAfterQuick, and Pause
+quickAddToolTip, Hold down at the starting position and release when you want the subtitle to hide.

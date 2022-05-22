@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenSubtitleEditor", "SubtitleEditor\OpenSubtitleEditor.csproj", "{D45D9206-BAFA-05FD-27B3-AE39D32FDD66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translator", "Translator\Translator.csproj", "{3E6185CE-0BC3-02CE-3F7F-22A43750781A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1A29F04E-236B-42EA-975F-2847DE48ED35}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D45D9206-BAFA-05FD-27B3-AE39D32FDD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D45D9206-BAFA-05FD-27B3-AE39D32FDD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D45D9206-BAFA-05FD-27B3-AE39D32FDD66}.Debug|x86.ActiveCfg = Debug|x86
+		{D45D9206-BAFA-05FD-27B3-AE39D32FDD66}.Debug|x86.Build.0 = Debug|x86
+		{D45D9206-BAFA-05FD-27B3-AE39D32FDD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D45D9206-BAFA-05FD-27B3-AE39D32FDD66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D45D9206-BAFA-05FD-27B3-AE39D32FDD66}.Release|x86.ActiveCfg = Release|x86
+		{D45D9206-BAFA-05FD-27B3-AE39D32FDD66}.Release|x86.Build.0 = Release|x86
+		{3E6185CE-0BC3-02CE-3F7F-22A43750781A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6185CE-0BC3-02CE-3F7F-22A43750781A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E6185CE-0BC3-02CE-3F7F-22A43750781A}.Debug|x86.ActiveCfg = Debug|x86
+		{3E6185CE-0BC3-02CE-3F7F-22A43750781A}.Debug|x86.Build.0 = Debug|x86
+		{3E6185CE-0BC3-02CE-3F7F-22A43750781A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6185CE-0BC3-02CE-3F7F-22A43750781A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E6185CE-0BC3-02CE-3F7F-22A43750781A}.Release|x86.ActiveCfg = Release|x86
+		{3E6185CE-0BC3-02CE-3F7F-22A43750781A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B7762E0-BB71-476A-AAF1-5FD33EFD9D65}
+	EndGlobalSection
+EndGlobal
