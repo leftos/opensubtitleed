@@ -1,5 +1,6 @@
 Open Subtitle Editor
 ----------------------------------------
+(c) 2022 Eleftherios "Leftos" Aslanoglou
 (c) 2009-2010  Discovery OSS Team
 Uses Windows Media Player 11 control for video preview
 Uses DataGridView Custom Column from the .NET SDK
