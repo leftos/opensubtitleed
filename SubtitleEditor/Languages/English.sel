@@ -38,7 +38,7 @@ in_somany_seconds1, in
 in_somany_seconds2, seconds.
 languagefile, Language File
 languageMenu, Language
-licensedString, Licensed under the GNU GPL license. Click on "License" for more information.
+licensedString, Licensed under the MIT license. Click on "License" for more information.
 licenseWord, License
 loadedmovie, Loaded video succesfully.
 loadTranslationMenuItem, Load Translation...

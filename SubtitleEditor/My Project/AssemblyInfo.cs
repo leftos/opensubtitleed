@@ -11,9 +11,9 @@ using System.Runtime.InteropServices;
 [assembly:
     AssemblyDescription(
         "Open Subtitle Editor is an open-source subtitle editor that provides an easy solution to various editing jobs such as translation, resyncing, adding and removing subtitles, as well as to creating subtitles for any video file from scratch.")]
-[assembly: AssemblyCompany("Discovery OSS Team")]
+[assembly: AssemblyCompany("Eleftherios \"Leftos\" Aslanoglou")]
 [assembly: AssemblyProduct("Open Subtitle Editor")]
-[assembly: AssemblyCopyright("Licensed under the GNU GPL License.")]
+[assembly: AssemblyCopyright("Licensed under the MIT License.")]
 [assembly: AssemblyTrademark("")]
 
 [assembly: ComVisible(false)]

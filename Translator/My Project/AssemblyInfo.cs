@@ -9,9 +9,9 @@ using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("Translator")]
 [assembly: AssemblyDescription("A translation helper utility for the UI of Open Subtitle Edtior.")]
-[assembly: AssemblyCompany("Discovery Open-Source Development Group")]
+[assembly: AssemblyCompany("Eleftherios \"Leftos\" Aslanoglou")]
 [assembly: AssemblyProduct("")]
-[assembly: AssemblyCopyright("Licensed under GNU GPL License.")]
+[assembly: AssemblyCopyright("Licensed under MIT License.")]
 [assembly: AssemblyTrademark("")]
 
 [assembly: ComVisible(false)]
